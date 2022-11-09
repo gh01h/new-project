@@ -106,3 +106,60 @@ section h1 {
 section p {
     line-height: 25px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: rgb(196, 196, 196);
+}
+
+.document {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.parag {
+    line-height: 30px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100% - 500px);
+}
+
+.links li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.first-p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.contact-images {
+    display: flex;
+    margin-top: 15px;
+}
+
+.contact-image {
+    background-color: white;
+    margin-left: 15px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
