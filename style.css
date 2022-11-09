@@ -76,7 +76,7 @@ main h1 {
 .sections {
     width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
     gap: 40px;
     margin: 50px auto;
     padding: 20px;
