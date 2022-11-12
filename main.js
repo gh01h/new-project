@@ -12,4 +12,4 @@ setInterval(function() {
         current = 0;
         slides.style.left = 0
     }
-}, 2500)
+}, 3500)
