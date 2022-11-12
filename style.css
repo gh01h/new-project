@@ -48,32 +48,47 @@ body {
 }
 
 main {
-    background: url(./images/images.jpg);
+    /* background: url(./images/images.jpg);
     width: 1200px;
     height: 530px;
-    background-size: cover;
-    margin: 20px auto;
-    position: relative;
-    border-radius: 30px;
+    background-size: cover; */
+    /* position: relative; */
+    /* margin: 20px auto; */
+    /* width: 100vw; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* border-radius: 30px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(247, 247, 247); */
 }
 
-main div {
-    width: 1200px;
+.carousel {
+    width: 80vw;
     height: 530px;
-    background-color: rgba(255, 255, 255, 0.356);
-    border-radius: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px ghostwhite;
 }
 
-main h1 {
+.slides {
     position: absolute;
-    top: 400px;
-    right: 190px;
-    font-size: 2.5rem;
-    background-color: rgba(255, 255, 255, 0.795);
-    padding: 20px;
-    border-radius: 20px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    min-height: 530px;
+    height: auto;
+    object-fit: cover;
 }
 
 .sections {
