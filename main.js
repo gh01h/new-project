@@ -12,4 +12,17 @@ setInterval(function() {
         current = 0;
         slides.style.left = 0
     }
-}, 3500)
+}, 3500);
+
+const showProductMenu = document.querySelector("#show-product-menu");
+
+showProductMenu.addEventListener("mouseenter", event => {
+    const div = event.target.childNodes[5];
+    div.style.animation = "showUp 1.5s 1";
+    div.style.display = "flex";
+})
+
+showProductMenu.addEventListener("mouseleave", event => {
+    const div = event.target.childNodes[5];
+    div.style.display = "none";
+})
