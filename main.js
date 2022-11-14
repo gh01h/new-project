@@ -14,15 +14,15 @@ setInterval(function() {
     }
 }, 3500);
 
-const showProductMenu = document.querySelector("#show-product-menu");
+const showdepartmanMenu = document.querySelector("#show-departman-menu");
 
-showProductMenu.addEventListener("mouseenter", event => {
+showdepartmanMenu.addEventListener("mouseenter", event => {
     const div = event.target.childNodes[5];
     div.style.animation = "showUp 1.5s 1";
     div.style.display = "flex";
 })
 
-showProductMenu.addEventListener("mouseleave", event => {
+showdepartmanMenu.addEventListener("mouseleave", event => {
     const div = event.target.childNodes[5];
     div.style.display = "none";
 })
