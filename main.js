@@ -15,6 +15,9 @@ setInterval(function() {
 }, 3500);
 
 const showdepartmanMenu = document.querySelector("#show-departman-menu");
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const crossIcon = document.querySelector(".cross-icon");
 
 showdepartmanMenu.addEventListener("mouseenter", event => {
     const div = event.target.childNodes[5];
@@ -25,4 +28,12 @@ showdepartmanMenu.addEventListener("mouseenter", event => {
 showdepartmanMenu.addEventListener("mouseleave", event => {
     const div = event.target.childNodes[5];
     div.style.display = "none";
+})
+
+hamburgerIcon.addEventListener("click", function() {
+    hamburgerMenu.classList.add('show-hamburger-menu');
+})
+
+crossIcon.addEventListener("click", function() {
+    hamburgerMenu.classList.remove("show-hamburger-menu");
 })

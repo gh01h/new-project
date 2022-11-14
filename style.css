@@ -98,6 +98,57 @@ body {
     line-height: 25px;
 }
 
+.hamburger-icon {
+    display: none;
+    width: 27px;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(226, 226, 226);
+    z-index: 100;
+    width: 100%;
+    padding: 10px;
+    transform: translateY(-100%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.cross-icon {
+    width: 100%;
+    padding: 10px 0 0;
+}
+
+.cross-icon img {
+    width: 20px;
+    margin-left: 30px;
+}
+
+.hamburger-menu-items {
+    padding: 10px 30px;
+}
+
+.hamburger-menu-items ul {
+    list-style-type: none;
+}
+
+.hamburger-menu-items a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.hamburger-menu-items a:hover {
+    color: rgb(0, 153, 255);
+}
+
+.show-hamburger-menu {
+    animation: fadeInDown 0.5s forwards;
+}
+
 main {
     height: 80vh;
     display: flex;
@@ -123,7 +174,7 @@ main {
     transform: translateY(-50%);
     display: flex;
     width: 100%;
-    transition: 1s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .slide {
@@ -275,4 +326,15 @@ footer {
     width: 45px;
     height: 45px;
     border-radius: 10px;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
