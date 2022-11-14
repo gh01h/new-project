@@ -1,0 +1,64 @@
+@media (max-width:1200px) {
+    .header {
+        width: 940px;
+    }
+    .navigation a {
+        font-size: 0.8rem;
+    }
+    .departman-menu {
+        left: -750px;
+        width: 890px;
+        padding: 20px 10px 10px;
+    }
+    .departman-menu p {
+        font-size: 0.8rem;
+    }
+    .departman-menu a {
+        margin-top: 10px;
+        line-height: 18px;
+    }
+    main, .sections, article, footer {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .header {
+        width: auto;
+        margin: 0 10px 0 10px;
+    }
+    .logo img {
+        width: 150px;
+        margin: 0;
+    }
+    .navigation a {
+        font-size: 0.7rem;
+    }
+    .navigation li {
+        margin: 0 10px;
+    }
+    .departman-menu {
+        left: -680px;
+        width: 790px;
+        padding: 20px 10px 10px;
+    }
+}
+
+@media (max-width:800px) {
+    .navigation {
+        display: none;
+    }
+    .hamburger-icon {
+        display: block;
+        margin-right: -1000;
+    }
+    .header {
+        height: 70px;
+        padding: 10px 8px;
+    }
+}
+
+@media (max-width:480px) {
+    
+}
+
