@@ -112,6 +112,7 @@ body {
     width: 100%;
     padding: 10px;
     transform: translateY(-100%);
+    border-bottom: 5px solid rgb(0, 162, 255);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -154,15 +155,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .carousel {
-    width: 80vw;
+    width: 85vw;
     height: 530px;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
-    margin-top: 20px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
     -10px -10px 10px rgb(247, 247, 247);
 }
@@ -187,13 +188,13 @@ main {
 #second-pic {
     width: 200px;
     position: absolute;
-    right: -1093px;
+    right: -1161px;
 }
 
 #third-pic {
     width: 200px;
     position: absolute;
-    right: -2186px;
+    right: -2322px;
 }
 
 .sections {
@@ -201,7 +202,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
     gap: 40px;
-    margin: 25px auto;
+    margin: 25px auto 15px;
     padding: 20px;
 }
 

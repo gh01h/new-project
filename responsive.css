@@ -17,9 +17,40 @@
         margin-top: 10px;
         line-height: 18px;
     }
-    main, .sections, article, footer {
-        display: none;
+    main {
+        height: 350px;
     }
+    .carousel {
+        height: 100%;
+    }
+    #second-pic {
+        right: -1019px;
+    }
+    #third-pic {
+         right: -2035px;
+    }
+    .sections {
+        width: 950px;
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    }
+    section img {
+        width: 200px;
+    }
+    article {
+        width: 950px;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    footer {
+        padding: 40px;
+    }
+    .document {
+        width: 400px;
+        margin-left: 50px;
+    }    
 }
 
 @media (max-width:1024px) {
@@ -42,6 +73,47 @@
         width: 790px;
         padding: 20px 10px 10px;
     }
+    #second-pic {
+        right: -860px;
+    }
+    #third-pic {
+         right: -1720px;
+    }
+    .sections {
+        width: 90%;
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+        gap: 20px;
+    }
+    .section {
+        margin-bottom: 10px;
+        padding: 10px;
+        /* height: 220px; */
+    }
+    section img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    section h1 {
+        margin-bottom: 5px;
+    }
+    section p {
+        line-height: 20px;
+    }
+    article {
+        width: 90%;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .document {
+        width: 300px;
+        margin-left: 30px;
+    } 
+    .links {
+        width: calc(100% - 300px);
+    } 
 }
 
 @media (max-width:800px) {
@@ -55,6 +127,43 @@
     .header {
         height: 70px;
         padding: 10px 8px;
+    }
+    #second-pic {
+        right: -680px;
+    }
+    #third-pic {
+         right: -1355px;
+    }
+    article {
+        width: 90%;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        flex-direction: column;
+    }
+    .document {
+        width: 100%;
+        margin-left: 0px;
+    } 
+    .links {
+        width: 100%;
+        gap: 20px;
+    } 
+    .contact-images {
+        display: grid;
+        margin-top: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .contact-image {
+        margin-left: 0;
+    }
+    .first-p {
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
 }
 
