@@ -160,7 +160,7 @@ main {
 
 .carousel {
     width: 85vw;
-    height: 530px;
+    height: 520px;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -175,24 +175,27 @@ main {
     transform: translateY(-50%);
     display: flex;
     width: 100%;
+    height: 100%;
     transition: 1.5s ease-in-out;
 }
 
 .slide {
-    min-width: 100%;
-    min-height: 530px;
+    width: 100%;
+    height: 100%;
     height: auto;
     object-fit: cover;
 }
 
 #second-pic {
-    width: 200px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     right: -1161px;
 }
 
 #third-pic {
-    width: 200px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     right: -2322px;
 }
@@ -243,6 +246,7 @@ article {
 
 .parent {
     display: flex;
+    width: auto;
 }
 
 .child {
@@ -265,8 +269,8 @@ article {
 }
 
 .child img {
-    width: 200px;
-    height: 200px;
+    width: 165px;
+    height: 165px;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
     -10px -10px 10px rgb(247, 247, 247);
