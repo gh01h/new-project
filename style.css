@@ -234,48 +234,6 @@ section p {
     line-height: 25px;
 }
 
-article {
-    width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-shadow: 2px 2px 5px gray;
-}
-
-.parent {
-    display: flex;
-    width: auto;
-}
-
-.child {
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-.child a {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 20px;
-}
-
-.child a:hover {
-    color: rgb(0, 153, 255);
-}
-
-.child img {
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
-}
-
 footer {
     display: flex;
     justify-content: space-between;
