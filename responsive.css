@@ -5,7 +5,7 @@
     }
     .logo img {
         width: 150px;
-        height: 70px;
+        height: 60px;
     }
     .navigation a {
         font-size: 0.8rem;
@@ -21,6 +21,44 @@
     .departman-menu a {
         margin-top: 10px;
         line-height: 18px;
+    }
+    main h1 {
+        right: 150px;
+        font-size: 1.8rem;
+    }
+    main a {
+        right: 150px;
+    }
+    main img{
+        width: 700px;
+        margin-right: 120px;
+    }
+    article {
+        width: 900px;
+        margin: 0 auto;
+    }
+    article div {
+        margin: 0;
+    }
+    article div img {
+        width: 170px;
+    }
+    .main-sec {
+        width: 900px;
+        /* height: 300px; */
+    }
+    .main-sec .paregraph {
+        width: 400px;
+    }
+    .main-sec .paregraph p {
+        font-size: 1.2rem;
+    }
+    .main-sec .image {
+        width: calc(100% - 400px);
+    }
+    .main-sec .image img {
+        width: 90%;
+        height: 300px;
     }
     .sections {
         width: 950px;
@@ -46,7 +84,7 @@
     }
     .logo img {
         width: 150px;
-        margin: 0;
+        margin-top: 10px;
     }
     .navigation a {
         font-size: 0.7rem;
@@ -58,6 +96,20 @@
         left: -680px;
         width: 790px;
         padding: 20px 10px 10px;
+    }
+    main h1 {
+        right: 30px;
+        font-size: 1.8rem;
+    }
+    main a {
+        right: 30px;
+    }
+    main img{
+        width: 700px;
+        margin-right: 20px;
+    }
+    article div img {
+        width: 150px;
     }
     .sections {
         width: 90%;
@@ -101,6 +153,12 @@
         height: 70px;
         padding: 10px 8px;
     }
+    main img{
+        width: 500px;
+    }
+    article div img {
+        width: 130px;
+    }
     footer {
         flex-direction: column;
     }
@@ -132,9 +190,15 @@
 }
 
 @media (max-width:480px) {
+    main img{
+        width: 90%;
+    }
     .child img {
         width: 130px;
         height: 130px;
+    }
+    article div img {
+        width: 90px;
     }
 }
 

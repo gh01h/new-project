@@ -190,9 +190,7 @@ main img {
 article {
     width: 1240px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
+    margin: 0 auto;
 }
 
 article div {
