@@ -224,7 +224,7 @@ article div a {
     padding: 20px;
 }
 
-section {
+.sections section {
     margin-bottom: 20px;
     background-color: rgb(143, 187, 187);
     padding: 20px;
@@ -236,16 +236,16 @@ section {
     color: white;
 }
 
-section img {
+.sections section img {
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-section h1 {
+.sections section h1 {
     margin-bottom: 15px;
 }
 
-section p {
+.sections section p {
     line-height: 25px;
 }
 
