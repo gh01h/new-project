@@ -22,19 +22,6 @@
         margin-top: 10px;
         line-height: 18px;
     }
-    main {
-        height: 390px;
-        margin-top: 10px;
-    }
-    .carousel {
-        height: 100%;
-    }
-    #second-pic {
-        right: -1019px;
-    }
-    #third-pic {
-         right: -2035px;
-    }
     .sections {
         width: 950px;
         padding: 10px;
@@ -42,17 +29,6 @@
     }
     section img {
         width: 200px;
-    }
-    article {
-        width: 950px;
-    }
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .child img {
-        width: 200px;
-        height: 200px;
     }
     footer {
         padding: 40px;
@@ -83,15 +59,6 @@
         width: 790px;
         padding: 20px 10px 10px;
     }
-    .slides {
-        height: 100%;
-    }
-    #second-pic {
-        right: -860px;
-    }
-    #third-pic {
-         right: -1720px;
-    }
     .sections {
         width: 90%;
         padding: 10px;
@@ -113,13 +80,6 @@
     section p {
         line-height: 20px;
     }
-    article {
-        width: 90%;
-    }
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
     .document {
         width: 300px;
         margin-left: 30px;
@@ -140,22 +100,6 @@
     .header {
         height: 70px;
         padding: 10px 8px;
-    }
-    #second-pic {
-        right: -680px;
-    }
-    #third-pic {
-         right: -1355px;
-    }
-    .slides {
-        width: 100%;
-    }
-    article {
-        width: 90%;
-    }
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
     footer {
         flex-direction: column;
