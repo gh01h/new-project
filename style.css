@@ -6,6 +6,7 @@
 
 body {
     font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+    background-color: #e6eef2;
 }
 
 .header {
@@ -16,8 +17,8 @@ body {
     height: 90px;
     margin: auto;
     padding: 2px 0 7px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(25px);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* backdrop-filter: blur(25px); */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -41,14 +42,22 @@ body {
     list-style-type: none;
     margin: 0 15px;
 }
+/* new */
+.bakc {
+    background-color: #3b87ad;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 .navigation a {
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
 }
-
-.navigation a:hover {
+/* .navigation a:hover {
+    color: rgb(0, 110, 255);
+} */
+.div-departman a:hover {
     color: rgb(0, 110, 255);
     transition: all 0.1s ease-in;
 }
@@ -229,7 +238,7 @@ article {
     justify-content: space-between;
     align-items: flex-start;
     height: 350px;
-    margin: 50px auto 0
+    margin: 50px auto 0;
 }
 
 .main-sec .paregraph {
@@ -270,6 +279,7 @@ article {
 .sections section {
     margin-bottom: 20px;
     background-color: rgb(143, 187, 187);
+    /* background-color: #86b5e6; */
     padding: 20px;
     text-align: center;
     border-radius: 35px;
@@ -298,7 +308,8 @@ footer {
     width: 100%;
     margin: 50px auto 0;
     padding: 80px;
-    background-color: rgb(196, 196, 196);
+    /* background-color: gainsboro; */
+    background-color: #6a9ab1;
 }
 
 .document {
