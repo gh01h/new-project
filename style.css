@@ -175,6 +175,7 @@ main h1 {
     position: absolute;
     top: 20px;
     right: 90px;
+    color: white;
 }
 
 main a {
@@ -191,10 +192,11 @@ main a {
 
 main img {
     width: 1000px;
+    height: 470px;
     margin-right: 75px;
     border-radius: 30px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(218, 221, 228);
     position: absolute;
     top: 0;
     right: 0;
@@ -222,7 +224,7 @@ article {
     width: 190px;
     border-radius: 30px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(218, 221, 228);
 }
 
 .conteiner-child a {
@@ -263,7 +265,7 @@ article {
     width: 550px;
     height: 350px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(218, 221, 228);
     border-radius: 30px;
 }
 
@@ -284,7 +286,7 @@ article {
     text-align: center;
     border-radius: 35px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(218, 221, 228);
     text-shadow: 2px 2px 5px gray;
     color: white;
 }
@@ -292,6 +294,8 @@ article {
 .sections section img {
     border-radius: 20px;
     margin-bottom: 20px;
+    width: 275px;
+    height: 187px;
 }
 
 .sections section h1 {
