@@ -39,6 +39,15 @@
         width: 90%;
         height: 300px;
     }
+    article {
+        width: 900px;
+    }
+    article div {
+        margin: 0;
+    }
+    article div img {
+        width: 180px;
+    }
     footer {
         padding: 40px;
     }
@@ -73,6 +82,13 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 150px;
+    }
+    article {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .conteiner {
+        gap: 100px;
     }
     .main-sec .paregraph {
         width: 95%;
@@ -118,6 +134,23 @@
         width: 500px;
         height: 300px;
         margin: 0;
+    }
+    article {
+        width: 550px;
+    }
+    .conteiner {
+        width: 550px;
+        margin-right: 20px;
+        /* height: 300px; */
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .conteiner-child {
+        width: 200px;
+        height: 200px;
+    }
+    .conteiner-child img {
+        width: 150px;
     }
     footer {
         flex-direction: column;
@@ -167,6 +200,20 @@
     .main-sec .paregraph p {
         line-height: 30px;
     }
+    article {
+        width: 300px;
+    }
+    .conteiner {
+        width: 300px;
+        margin-right: 0;
+    }
+    .conteiner-child {
+        width: auto;
+        height: 150px;
+    }
+    .conteiner-child img {
+        width: 120px;
+    }
 }
 
 @media (max-width:480px) {
@@ -184,6 +231,16 @@
     .main-sec .image img {
         width: 300px;
         height: 200px;
+    }
+    article {
+        width: 290px;
+    }
+    .conteiner {
+        width: 290px;
+        margin-right: 0;
+    }
+    .conteiner-child img {
+        width: 110px;
     }
 }
 

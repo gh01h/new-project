@@ -45,14 +45,14 @@ body {
 /* new */
 .bakc {
     background-color: #3b87ad;
-    padding: 5px;
+    padding: 6px;
     border-radius: 20px;
 }
 
 .navigation a {
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 /* .navigation a:hover {
     color: rgb(0, 110, 255);

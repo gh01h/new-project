@@ -185,7 +185,7 @@ body {
 }
 
 .main-sec .paregraph p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     line-height: 40px;
     margin-top: 15px;
@@ -195,8 +195,40 @@ body {
     width: 550px;
     height: 350px;
     box-shadow: 10px 10px 10px rgb(224, 224, 224),
-    -10px -10px 10px rgb(247, 247, 247);
+    -10px -10px 10px rgb(218, 221, 228);
     border-radius: 30px;
+}
+
+article {
+    width: 1240px;
+    margin: 50px auto;
+}
+
+.conteiner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.conteiner-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-child img {
+    width: 190px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(224, 224, 224),
+    -10px -10px 10px rgb(218, 221, 228);
+}
+
+.conteiner-child a {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 footer {
