@@ -180,8 +180,8 @@ main h1 {
 
 main a {
     position: absolute;
-    top: 100px;
-    right: 90px;
+    top: 350px;
+    right: 100px;
     text-decoration: none;
     color: black;
     background-color: white;
@@ -318,6 +318,100 @@ article {
     line-height: 25px;
 }
 
+.moarefi {
+    width: 1150px; 
+    height: 200px; 
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moarefi p {
+    padding: 20px;
+}
+
+.moarefi-second-p {
+    margin:0 20px;
+}
+
+.photo-video-box {
+    background-color: cadetblue; 
+    padding: 30px;
+}
+
+.photos {
+    display: flex; 
+    justify-content: center;
+}
+
+.photos img {
+    border-radius: 30px;
+}
+
+.main-pic {
+    margin: 0 40px;
+}
+
+.videos {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.videos video {
+    background-color: black; 
+    border-radius: 30px; 
+    width: 300px; 
+    height: 200px;
+}
+
+.main-video {
+    margin: 0 40px;
+}
+
+.bazargan-sec {
+    background: none; 
+    position: relative; 
+    height: 450px;
+}
+
+.sec-last-a {
+    background-color: cornflowerblue; 
+    padding: 5px 10px; 
+    border-radius: 10px; 
+    position: absolute; 
+    bottom: 30px; 
+    right: 150px;
+    text-decoration: none;
+}
+
+.bazargan-last-div {
+    width: 1150px; 
+    background-color: cadetblue; 
+    height: 200px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.bazargan-last-div p {
+    padding: 20px;
+}
+
+.bazargan-last-div p:last-child {
+    margin:0 20px;
+}
+
+.bazargan-last-div img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.big-pic img{
+    width: 1190px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -374,6 +468,89 @@ footer {
     width: 45px;
     height: 45px;
     border-radius: 10px;
+}
+
+.form-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-div {
+    width: 380px;
+    height: 600px;
+    padding: 10px 35px 25px 35px;
+    background: rgb(217, 217, 228);
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(179, 179, 179),
+    -10px -10px 20px rgb(233, 233, 233);
+}
+
+.fields {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.fields input {
+    border: none;
+    background: none;
+    padding: 20px 5px 20px 5px;
+    font-size: 15px;
+    outline: none;
+    font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+}
+
+.useremail, .phone-number {
+    width: 100%;
+    box-shadow: 8px 8px 15px rgb(161, 161, 161),
+    -8px -8px 15px rgb(218, 218, 218);
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+#textarea {
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+    margin-right: 25px;
+    box-shadow: 8px 8px 15px rgb(161, 161, 161),
+    -8px -8px 15px rgb(218, 218, 218);
+}
+
+.login-button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background: steelblue;
+    color: white;
+    font-family: "iranyekanwebregular", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    box-shadow: 8px 8px 15px rgb(155, 155, 155),
+    -8px -8px 15px gainsboro;
+    transition: 0.5s 0s ease-out;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: cyan;
+}
+
+.bell {
+    background-color: #2e82ff;
+    width: fit-content;
+    padding: 7px 7px 0;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.bell img {
+    width: 40px;
 }
 
 @keyframes fadeInDown {

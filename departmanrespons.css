@@ -181,6 +181,9 @@
         font-size: 1rem;
         margin-bottom: 10px;
     }
+    .post {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width:640px) {
@@ -213,6 +216,18 @@
     }
     .conteiner-child img {
         width: 120px;
+    }
+    .paregraph p {
+        font-size: 1rem;
+    }
+    .post {
+        flex-direction: column;
+    }
+    .post-third-div {
+        width: auto;
+    }
+    .post-third-div img {
+        width: 100%;
     }
 }
 

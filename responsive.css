@@ -31,6 +31,7 @@
     }
     main a {
         right: 100px;
+        top: 300px;
     }
     main img{
         width: 730px;
@@ -83,6 +84,20 @@
     .document {
         width: 400px;
         margin-left: 50px;
+    }
+    .moarefi {
+        width: auto;
+    }
+    .big-pic {
+        width: 90%;
+    }
+    .big-pic img {
+        margin: 0 50px 0 0;
+        width: 100%;
+    }
+    .bazargan-last-div {
+        width: auto;
+        margin: 0 20px;
     }
 }
 
@@ -167,6 +182,23 @@
     .links {
         width: calc(100% - 300px);
     } 
+    .videos video {
+        width: 200px;
+        height: 140px;
+    }
+    .main-video {
+        margin: 0 20px;
+    }
+    .photos img {
+        width: 200px;
+        height: 140px;
+    }
+    .main-pic {
+        margin: 0 20px;
+    }
+    .darbare-ma-sec {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width:800px) {
@@ -183,6 +215,9 @@
     }
     main {
         height: 350px;
+    }
+    main a {
+        top: 250px;
     }
     main img{
         width: 600px;
@@ -250,6 +285,29 @@
         font-size: 1rem;
         margin-bottom: 10px;
     }
+    .moarefi {
+        /* margin-bottom: 50px; */
+        flex-direction: column-reverse;
+        height: 300px;
+        margin-top: 120px;
+    }
+    .moarefi img {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .big-pic {
+        margin-right: -20px;
+    }
+    .bazargan-last-div {
+        width: auto;
+        height: 250px;
+    }
+    .bazargan-last-div p {
+        font-size: 0.9rem;
+    }
+    .bazargan-last-div img {
+        width: 250px;
+    }
 }
 
 @media (max-width:640px) {
@@ -290,6 +348,38 @@
     .main-sec .paregraph p {
         line-height: 30px;
     }
+    .moarefi {
+        margin-top: 170px;
+    }
+    .videos video {
+        width: 160px;
+        height: 120px;
+    }
+    .main-video {
+        margin: 0 15px;
+    }
+    .photos img {
+        width: 160px;
+        height: 120px;
+    }
+    .main-pic {
+        margin: 0 15px;
+    }
+    .bazargan-last-div {
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+    .bazargan-last-div img {
+        width: 400px;
+        margin: 20px auto 0;
+        border-radius: 10px;
+    }
+    .bazargan-last-div p {
+        padding: 10px;
+    }
+    .login-div {
+        width: 350px;
+    }
 }
 
 @media (max-width:480px) {
@@ -302,6 +392,10 @@
     }
     main {
         height: 350px;
+    }
+    main a {
+        top: 200px;
+        font-size: 0.9rem;
     }
     main img{
         width: 90%;
@@ -332,6 +426,26 @@
     .main-sec .image img {
         width: 300px;
         height: 200px;
+    }
+    .moarefi {
+        margin-top: 220px;
+    }
+    .videos video {
+        width: 130px;
+        height: 100px;
+    }
+    .main-video {
+        margin: 0 7px;
+    }
+    .photos img {
+        width: 130px;
+        height: 100px;
+    }
+    .main-pic {
+        margin: 0 7px;
+    }
+    .bazargan-last-div img {
+        width: auto;
     }
 }
 

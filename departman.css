@@ -231,6 +231,38 @@ article {
     color: black;
 }
 
+.post {
+    display: flex; 
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.post-first-div {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.post-second-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.post-third-div {
+    width: 40%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.post-third-div img {
+    width: 90%;
+    border-radius: 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -287,6 +319,20 @@ footer {
     width: 45px;
     height: 45px;
     border-radius: 10px;
+}
+
+.bell {
+    background-color: #2e82ff;
+    width: fit-content;
+    padding: 7px 7px 0;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.bell img {
+    width: 40px;
 }
 
 @keyframes fadeInDown {
