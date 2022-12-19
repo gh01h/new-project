@@ -199,6 +199,18 @@
     .darbare-ma-sec {
         margin-top: 50px;
     }
+    .bell {
+        width: 150px;
+        height: 170px;
+    }
+    .bell img {
+        width: 140px;
+    }
+    .applic {
+        width: 140px;
+        font-size: 0.9rem;
+        right: 15px;
+    }
 }
 
 @media (max-width:800px) {
@@ -379,6 +391,19 @@
     }
     .login-div {
         width: 350px;
+    }
+    .bell {
+        width: 100px;
+        height: 150px;
+    }
+    .bell img {
+        width: 100px;
+        margin-top: -10px;
+    }
+    .applic {
+        width: 100px;
+        font-size: 0.8rem;
+        right: 10px;
     }
 }
 
