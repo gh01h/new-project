@@ -263,6 +263,52 @@ article {
     border-radius: 30px;
 }
 
+.conteiner-maghale {
+    background-color: #4c92b6;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.pic-title {
+    display: flex;
+    position: relative;
+}
+
+.maghale-title {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+}
+
+.personal-pic img {
+    background-color: black;
+    width: 110px;
+    height: 110px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.maghale-paragraph {
+    height: 200px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.maghale-pic {
+    margin-right: 20px;
+}
+
+.maghale-pic img {
+    border-radius: 20px;
+    width: 250px;
+    height: 220px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
