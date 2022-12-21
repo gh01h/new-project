@@ -31,3 +31,10 @@ lastLink.addEventListener("mouseenter" , function() {
 lastLink.addEventListener("mouseleave" , function() {
     applic.style.display = "none";
 })
+
+$(function () {
+    $("div.poll1>.case").click(function(){
+    	$(this).parent().find("input:radio").attr("checked",false);
+    	$(this).siblings(".case").removeClass("active").end().addClass("active").children("input").attr("checked",true);
+    });
+});
